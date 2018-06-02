@@ -14,6 +14,8 @@ public class P6_SumSquareDifference {
 
 	public static void main(String[] args) 
 	{
+		long start=System.currentTimeMillis();
+		
 		BigInteger sum=BigInteger.ZERO;
 		BigInteger ssum=BigInteger.ZERO;
 		
@@ -27,5 +29,9 @@ public class P6_SumSquareDifference {
 		BigInteger b=sum.pow(2);
 		System.out.println("Square of sum = "+b);
 		System.out.println("Difference between the two = "+(b.subtract(ssum)));
+		
+		long end=System.currentTimeMillis();
+		long elapsedTime = end - start;
+		System.out.println("\nTime taken for the execution : "+elapsedTime+" ms");
 	}
 }

@@ -12,6 +12,7 @@ public class P1_Multiples3n5 {
 
 	public static void main(String[] args) 
 	{
+		long start=System.currentTimeMillis();
 		int sum=0;
 		for(int i=1;i<1000;i++)
 		{
@@ -27,5 +28,9 @@ public class P1_Multiples3n5 {
 			}
 		}
 		System.out.println("Sum of the multiples of 3 and 5 below 1000 = "+sum);
+		
+		long end=System.currentTimeMillis();
+		long elapsedTime = end - start;
+		System.out.println("\nTime taken for the execution : "+elapsedTime+" ms");
 	}
 }

@@ -21,7 +21,6 @@ public class P22_NamesScores {
 
 	public static void main(String[] args)
 	{
-		
 		int score=0;
 		
 		String filePath=".\\InputTextFiles\\P22_Names.txt";
