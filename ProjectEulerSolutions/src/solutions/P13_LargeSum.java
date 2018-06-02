@@ -1,4 +1,4 @@
-package dlEasy;
+package solutions;
 
 import java.math.BigInteger;
 
