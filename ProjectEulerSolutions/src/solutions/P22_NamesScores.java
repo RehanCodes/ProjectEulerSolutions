@@ -1,4 +1,4 @@
-package dlModerate;
+package solutions;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -111,7 +111,7 @@ public class P22_NamesScores {
 		
 		long end=System.currentTimeMillis();
 		long elapsedTime = end - start;
-		System.out.println("\nTime taken for the execution : "+elapsedTime);
+		System.out.println("\nTime taken for the execution : "+elapsedTime+" ms");
 
 	}
 }

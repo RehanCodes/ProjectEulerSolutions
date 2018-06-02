@@ -1,32 +1,32 @@
 package util;
 
-import dlEasy.P13_LargeSum;
-import dlEasy.P1_Multiples3n5;
-import dlEasy.P25_1000digitFibonacciNumber;
-import dlEasy.P2_EvenFibonacciNumbers;
-import dlEasy.P3_LargestPrimeFactor;
-import dlEasy.P6_SumSquareDifference;
-import dlEasy.P9_SpecialPythagoreanTriplet;
+import solutions.P13_LargeSum;
+import solutions.P1_Multiples3n5;
+import solutions.P25_1000digitFibonacciNumber;
+import solutions.P2_EvenFibonacciNumbers;
+import solutions.P3_LargestPrimeFactor;
+import solutions.P6_SumSquareDifference;
+import solutions.P9_SpecialPythagoreanTriplet;
 
 public class Runner {
 
 	public static void main(String[] args) 
 	{
-		dlEasy.P1_Multiples3n5.main(null);
+		solutions.P1_Multiples3n5.main(null);
 		System.out.println("**********************************************************************************************************");
-		dlEasy.P2_EvenFibonacciNumbers.main(null);
+		solutions.P2_EvenFibonacciNumbers.main(null);
 		System.out.println("**********************************************************************************************************");
-		dlEasy.P3_LargestPrimeFactor.main(null);
+		solutions.P3_LargestPrimeFactor.main(null);
 		System.out.println("**********************************************************************************************************");
-		dlEasy.P6_SumSquareDifference.main(null);
+		solutions.P6_SumSquareDifference.main(null);
 		System.out.println("**********************************************************************************************************");
-		dlEasy.P9_SpecialPythagoreanTriplet.main(null);
+		solutions.P9_SpecialPythagoreanTriplet.main(null);
 		System.out.println("**********************************************************************************************************");
-		dlEasy.P13_LargeSum.main(null);
+		solutions.P13_LargeSum.main(null);
 		System.out.println("**********************************************************************************************************");
-		dlModerate.P20_FactorialDigitSum.main(null);
+		solutions.P20_FactorialDigitSum.main(null);
 		System.out.println("**********************************************************************************************************");
-		dlEasy.P25_1000digitFibonacciNumber.main(null);
+		solutions.P25_1000digitFibonacciNumber.main(null);
 		System.out.println("**********************************************************************************************************");
 		
 		

@@ -1,4 +1,4 @@
-package dlModerate;
+package solutions;
 
 import java.math.BigInteger;
 

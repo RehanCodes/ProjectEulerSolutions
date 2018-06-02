@@ -1,4 +1,4 @@
-package dlEasy;
+package solutions;
 
 /* *
  * Solution for Problem 1
