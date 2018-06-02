@@ -12,6 +12,8 @@ public class P9_SpecialPythagoreanTriplet {
 
 	public static void main(String[] args) 
 	{
+		long start=System.currentTimeMillis();
+		
 		int p=0,b=0,h=0,ps=0,bs=0,hs=0;
 		for(int i=1;i<=500;i++)
 		{
@@ -41,6 +43,9 @@ public class P9_SpecialPythagoreanTriplet {
 				}
 			}
 		}
+		long end=System.currentTimeMillis();
+		long elapsedTime = end - start;
+		System.out.println("\nTime taken for the execution : "+elapsedTime+" ms");
 	}
 }
 // p.s need help with the code to remove the duplicate values of p,b and h.

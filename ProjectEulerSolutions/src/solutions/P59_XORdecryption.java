@@ -15,6 +15,8 @@ public class P59_XORdecryption {
 
 	public static void main(String[] args) 
 	{
+		long start=System.currentTimeMillis();
+		
 		Map<Integer, String> m1=new HashMap<Integer, String>();
 		Map<Integer, String> m2=new HashMap<Integer, String>();
 		
@@ -146,6 +148,10 @@ public class P59_XORdecryption {
 			
 			e.printStackTrace();
 		}
+		
+		long end=System.currentTimeMillis();
+		long elapsedTime = end - start;
+		System.out.println("\nTime taken for the execution : "+elapsedTime+" ms");
 	}
 
 }

@@ -18,6 +18,8 @@ public class P3_LargestPrimeFactor {
 
 	public static void main(String[] args) 
 	{
+		long start=System.currentTimeMillis();
+		
 		long n=600851475143L;
 		List<Long> lst=new ArrayList<Long>();
 		for (long i = 2; i <= n; i++)
@@ -31,5 +33,9 @@ public class P3_LargestPrimeFactor {
 			}
 		}
 		System.out.println("The largest Prime factor of the given number = "+Collections.max(lst));
+		
+		long end=System.currentTimeMillis();
+		long elapsedTime = end - start;
+		System.out.println("\nTime taken for the execution : "+elapsedTime+" ms");
 	}
 }

@@ -13,12 +13,12 @@ import java.math.BigInteger;
 public class P20_FactorialDigitSum {
 	
 	static BigInteger b=new BigInteger("1");
-	
 	static long mulplicationFactor=1l;
 	static int sum=0;
 
 	public static void main(String[] args) 
 	{
+		long start=System.currentTimeMillis();
 		for(int i=100;i>=1;i--)
 		{
 			b=b.multiply(BigInteger.valueOf(i));
@@ -33,6 +33,10 @@ public class P20_FactorialDigitSum {
 			sum=sum+temp;
 		}
 		System.out.println("Sum of the digits of 100! = "+sum);
+		
+		long end=System.currentTimeMillis();
+		long elapsedTime = end - start;
+		System.out.println("\nTime taken for the execution : "+elapsedTime+" ms");
 	}
 }
 // Kindly suggest a way, if possible, to convert a char directly to an integer.

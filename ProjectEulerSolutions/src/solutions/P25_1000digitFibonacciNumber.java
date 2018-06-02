@@ -14,6 +14,8 @@ public class P25_1000digitFibonacciNumber {
 
 	public static void main(String[] args) 
 	{
+		long start=System.currentTimeMillis();
+		
 		BigInteger i=BigInteger.ZERO;
 		BigInteger j=BigInteger.ONE;
 		BigInteger sum=BigInteger.ZERO;
@@ -34,5 +36,9 @@ public class P25_1000digitFibonacciNumber {
 			i=j;
 			j=sum;
 		}
+		
+		long end=System.currentTimeMillis();
+		long elapsedTime = end - start;
+		System.out.println("\nTime taken for the execution : "+elapsedTime+" ms");
 	}
 }

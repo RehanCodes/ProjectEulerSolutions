@@ -12,6 +12,8 @@ public class P2_EvenFibonacciNumbers {
 
 	public static void main(String[] args) 
 	{
+		long start=System.currentTimeMillis();
+		
 		int i=1,j=2;
 		int sum=0;
 		int evenValuedSum=0;
@@ -40,5 +42,9 @@ public class P2_EvenFibonacciNumbers {
 			j=sum;
 		}
 		System.out.println("\nSum of the even terms of the Fibonacci series = "+(evenValuedSum+2));
+		
+		long end=System.currentTimeMillis();
+		long elapsedTime = end - start;
+		System.out.println("\nTime taken for the execution : "+elapsedTime+" ms");
 	}
 }
