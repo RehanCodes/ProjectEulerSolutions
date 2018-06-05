@@ -2,7 +2,7 @@
 Solving the questions in Project Euler archives with the community help !
 
 This is an attempt to solve as many questions as possible of the Project Euler archives with the help of all the good samaritans out there.
-For every solution add a new class in any package as you deem appropriate as per the difficulty level.
+For every solution add a new class.
 
 The naming convention followed for the class name is `"P(problem no)_(a meaningful name on the basis of the problem statement)"`.
 
