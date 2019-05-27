@@ -2,3 +2,5 @@ bin/
 .metadata/
 .recommenders/
 RemoteSystemsTempFiles/
+.idea/
+ProjectEulerSolutions/ProjectEulerSolutions.iml
